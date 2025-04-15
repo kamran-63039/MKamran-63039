@@ -1,0 +1,19 @@
+public class modularApproach{
+    
+    
+    public void printMessage(){
+        System.out.println("Welcome to Software Construction!");
+    }
+    
+    public void calculateSum(int a, int b){
+        int Sum = a + b;
+        System.out.println("The sum is :"+Sum);
+    }
+    
+    public static void main(String[]args){
+        modularApproach m1 = new modularApproach();
+        m1.printMessage();
+        m1.calculateSum(10,5);
+       
+    }
+}
